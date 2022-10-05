@@ -1,5 +1,9 @@
 class Case {
-	constructor(){
-
+	constructor(gall){
+		this.gall = gall
+	}
+	router({ context }) {
+		this.context = context
 	}
 }
+
